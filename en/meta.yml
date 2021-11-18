@@ -1,11 +1,9 @@
-title: unity-collider-trigger
+title: Use a Collider with a Trigger
 hero_image: images/banner.png
-description: unity-collider-trigger description
+description: Use a Collider with 'Is Trigger' enabled. 
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-11-18"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Use a Collider with 'Is Trigger' enabled. 
