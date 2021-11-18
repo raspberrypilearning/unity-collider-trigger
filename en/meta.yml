@@ -1,0 +1,9 @@
+title: Use a Collider with a Trigger
+hero_image: images/banner.png
+description: Use a Collider with 'Is Trigger' enabled. 
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-11-18"
+steps:
+  - title: Use a Collider with 'Is Trigger' enabled. 
