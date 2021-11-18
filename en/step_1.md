@@ -1,5 +1,7 @@
 Add a collider to the GameObject that needs to react to a collision and enable 'Is Trigger' in the Inspector. 
 
+![Collider component with Is Trigger checked.](images/collider-trigger.png)
+
 Make sure the GameObject that will collide with it also has a collider. 
 
 Add `OnTriggerEnter` and/or `OnTriggerExit` methods to the GameObject with 'Is Trigger' enabled. 
