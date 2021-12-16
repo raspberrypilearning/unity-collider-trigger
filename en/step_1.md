@@ -8,7 +8,11 @@ Add `OnTriggerEnter` and/or `OnTriggerExit` methods to the GameObject with 'Is T
 
 --- code ---
 ---
-language: cs
+language: csharp
+filename: 
+line_numbers: false
+line_number_start: 
+line_highlights: 
 ---
     void OnTriggerEnter(Collider other)
     {
