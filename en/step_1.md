@@ -6,7 +6,14 @@ Make sure the GameObject that will collide with it also has a collider.
 
 Add `OnTriggerEnter` and/or `OnTriggerExit` methods to the GameObject with 'Is Trigger' enabled. 
 
-```
+--- code ---
+---
+language: csharp
+filename: 
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
@@ -22,6 +29,6 @@ Add `OnTriggerEnter` and/or `OnTriggerExit` methods to the GameObject with 'Is T
             Debug.Log("Player left");
         }
     }
-```
+--- /code ---
 
 **Debug:** Remember to enable 'Is Trigger' and make sure both GameObjects have a collider. 
