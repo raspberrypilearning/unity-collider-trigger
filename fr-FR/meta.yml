@@ -1,0 +1,10 @@
+---
+title: Utiliser un Collider avec un Trigger
+hero_image: images/banner.png
+description: Utiliser un Collider avec « Is Trigger » activé
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-11-18"
+steps:
+  - title: Utiliser un Collider avec « Is Trigger » activé
