@@ -1,10 +1,10 @@
-Add a collider to the GameObject that needs to react to a collision and enable 'Is Trigger' in the Inspector.
+Ajoute un collider au GameObject qui doit réagir à une collision et active « Is Trigger » dans l'Inspector.
 
-![Collider component with 'Is Trigger' checked.](images/collider-trigger.png)
+![Composant Collider avec « Is Trigger » coché.](images/collider-trigger.png)
 
-Make sure the GameObject that will collide with it also has a collider.
+Assure-toi que le GameObject qui entrera en collision avec lui possède également un collider.
 
-Add `OnTriggerEnter` and/or `OnTriggerExit` methods to the GameObject with 'Is Trigger' enabled.
+Ajoute les méthodes `OnTriggerEnter` et/ou `OnTriggerExit` au GameObject dont l'option « Is Trigger » est activée.
 
 --- code ---
 ---
@@ -29,4 +29,4 @@ line_highlights:
     }
 --- /code ---
 
-**Debug:** Remember to enable 'Is Trigger' and make sure both GameObjects have a collider. 
+**Debogage :** n'oublie pas d'activer « Is Trigger » et de t'assurer que les deux GameObjects ont un collider. 
