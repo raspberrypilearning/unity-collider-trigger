@@ -1,5 +1,5 @@
-Player
+Joueur
 
-Player arrived
+Le joueur est arrivé
 
-Player left
+Le joueur est parti
