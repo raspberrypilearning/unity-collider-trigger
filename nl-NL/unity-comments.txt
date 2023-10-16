@@ -1,5 +1,5 @@
-Player
+Speler
 
-Player arrived
+Speler is aangekomen
 
-Player left
+Speler is vertrokken
