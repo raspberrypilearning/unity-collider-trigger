@@ -1,10 +1,10 @@
-Add a collider to the GameObject that needs to react to a collision and enable 'Is Trigger' in the Inspector.
+Voeg een collider toe aan het GameObject die moet reageren op een botsing en schakel 'is Trigger' in de Inspector in.
 
-![Collider component with 'Is Trigger' checked.](images/collider-trigger.png)
+![Collider component met 'is Trigger' aangevinkt.](images/collider-trigger.png)
 
-Make sure the GameObject that will collide with it also has a collider.
+Zorg ervoor dat het GameObject dat ermee in botsing komt ook een collider heeft.
 
-Add `OnTriggerEnter` and/or `OnTriggerExit` methods to the GameObject with 'Is Trigger' enabled.
+Voeg `OnTriggerEnter` en/of `OnTriggerExit` methoden toe aan het GameObject met 'Is Trigger' ingeschakeld.
 
 --- code ---
 ---
@@ -29,4 +29,4 @@ line_highlights:
     }
 --- /code ---
 
-**Debug:** Remember to enable 'Is Trigger' and make sure both GameObjects have a collider. 
+**Foutopsporing:** Vergeet niet om 'Is trigger' in te schakelen en ervoor te zorgen dat beide GameObjects een collider hebben. 
