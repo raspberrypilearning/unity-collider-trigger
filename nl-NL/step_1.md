@@ -1,4 +1,4 @@
-Voeg een collider toe aan het GameObject die moet reageren op een botsing en schakel 'is Trigger' in de Inspector in.
+Voeg een collider toe aan het GameObject die moet reageren op een botsing en schakel 'Is Trigger' in de Inspector in.
 
 ![Collider component met 'is Trigger' aangevinkt.](images/collider-trigger.png)
 
