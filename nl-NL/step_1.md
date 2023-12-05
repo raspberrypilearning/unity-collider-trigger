@@ -1,4 +1,4 @@
-Voeg een collider toe aan het GameObject die moet reageren op een botsing en schakel 'is Trigger' in de Inspector in.
+Voeg een collider toe aan het GameObject die moet reageren op een botsing en schakel 'Is Trigger' in de Inspector in.
 
 ![Collider component met 'is Trigger' aangevinkt.](images/collider-trigger.png)
 
@@ -16,7 +16,7 @@ line_highlights:
 ---
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Speler")
+        if(other.gameObject.tag == "Player")
         {
             Debug.Log("Speler is aangekomen");
         }
@@ -24,7 +24,7 @@ line_highlights:
     
     void OnTriggerExit(Collider other)
     {
-        if(other.gameObject.tag == "Speler")
+        if(other.gameObject.tag == "Player")
         {
             Debug.Log("Speler is vertrokken");
         }
