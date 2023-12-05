@@ -1,4 +1,4 @@
-Speler
+Player
 
 Speler is aangekomen
 
